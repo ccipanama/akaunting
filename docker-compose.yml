@@ -8,7 +8,7 @@ services:
     build:
       context: .
     ports:
-      - 80:80
+      - 8095:80
     volumes:
       - akaunting-data:/var/www/html
     restart: unless-stopped
